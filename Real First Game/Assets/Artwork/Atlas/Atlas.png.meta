@@ -955,10 +955,10 @@ TextureImporter:
     second: Chest_normal
   - first:
       213: 2142351633854019549
-    second: Atlas_316
+    second: Chest_Gold
   - first:
       213: -8978530738447862898
-    second: Atlas_317
+    second: Chest_Gold1
   - first:
       213: -6307923653434783197
     second: Chest_boss
@@ -7753,7 +7753,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_316
+      name: Chest_Gold
       rect:
         serializedVersion: 2
         x: 320
@@ -7774,7 +7774,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_317
+      name: Chest_Gold1
       rect:
         serializedVersion: 2
         x: 336
