@@ -41,7 +41,7 @@ public abstract class Mover : Fighter
         {
             //Make him move
             transform.Translate(0, moveDelta.y * Time.deltaTime, 0);
-            animator.SetTrigger("Move");
+            
         }
         // X-Axis
         hit = Physics2D.BoxCast(transform.position, boxCollider.size, 0, new Vector2(moveDelta.x, 0), Mathf.Abs(moveDelta.x * Time.deltaTime), LayerMask.GetMask("Character", "Blocking"));
@@ -49,7 +49,7 @@ public abstract class Mover : Fighter
         {
             //Make him move
             transform.Translate(moveDelta.x * Time.deltaTime, 0, 0);
-            animator.SetTrigger("Move");
+            
         }        
     }
 

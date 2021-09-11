@@ -11,9 +11,12 @@ public class Player : Mover
         float y = Input.GetAxisRaw("Vertical");
 
         UpdateMotor(new Vector3(x, y, 0));
-    }
-    
 
-   
+        if ((x + y) == 0)
+            animator.SetBool("SpeedB", true);
+        else
+            animator.SetBool("SpeedB", false);
+    }
+       
 }
 
